@@ -1,9 +1,91 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "NFTsAPI": [
+    {
+      "id": "1",
+      "Artistname": "Keepitreal",
+      "Avatar": "/public/Avatars/Keepitreal.png",
+      "NFTname": "Colorful Dog0356",
+      "NFTimg": "/public/murketPlaceNFTs/ColorfulDog0356.png"
+    },
+    {
+      "id": "2",
+      "Artistname": "DigiLab",
+      "Avatar": "/public/Avatars/DigiLab.png",
+      "NFTname": "Magic Mushroom",
+      "NFTimg": "/public/murketPlaceNFTs/MagicMushroom0324.png"
+    },
+    {
+      "id": "3",
+      "Artistname": "GravityOne",
+      "Avatar": "/public/Avatars/GravityOne.png",
+      "NFTname": "Astro Fiction",
+      "NFTimg": "/public/murketPlaceNFTs/AstroFiction.png"
+    },
+    {
+      "id": "4",
+      "Artistname": "Juanie",
+      "Avatar": "/public/Avatars/BlueWhale.png",
+      "NFTname": "Cat From Future",
+      "NFTimg": "/public/murketPlaceNFTs/CatFromFuture.png"
+    },
+    {
+      "id": "5",
+      "Artistname": "BlueWhale",
+      "Avatar": "/public/Avatars/BlueWhale.png",
+      "NFTname": "Cherry Blossom Girl",
+      "NFTimg": "/public/murketPlaceNFTs/CherryBlossomGirl035.png"
+    },
+    {
+      "id": "6",
+      "Artistname": "mrFox",
+      "Avatar": "/public/Avatars/mrFox.png",
+      "NFTname": "Sunset0 Dimension",
+      "NFTimg": "/public/murketPlaceNFTs/Sunset0Dimension.png"
+    },
+    {
+      "id": "7",
+      "Artistname": "Shroomie",
+      "Avatar": "/public/Avatars/Shroomie.png",
+      "NFTname": "Dancing Robot0375",
+      "NFTimg": "/public/murketPlaceNFTs/DancingRobot0375.png"
+    },
+    {
+      "id": "8",
+      "Artistname": "robotica",
+      "Avatar": "/public/Avatars/robotica.png",
+      "NFTname": "Desert Walk",
+      "NFTimg": "/public/murketPlaceNFTs/DesertWalk.png"
+    },
+    {
+      "id": "9",
+      "Artistname": "RustyRobot",
+      "Avatar": "/public/Avatars/RustyRobot.png",
+      "NFTname": "Designer Bear",
+      "NFTimg": "/public/murketPlaceNFTs/DesignerBear.png"
+    },
+    {
+      "id": "10",
+      "Artistname": "animakid",
+      "Avatar": "/public/Avatars/animakid.png",
+      "NFTname": "Happy Robot024",
+      "NFTimg": "/public/murketPlaceNFTs/HappyRobot024.png"
+    },
+    {
+      "id": "11",
+      "Artistname": "Dotgu",
+      "Avatar": "/public/Avatars/Dotgu.png",
+      "NFTname": "Ice Cream Ape0324",
+      "NFTimg": "/public/murketPlaceNFTs/IceCreamApe0324.png"
+    },
+    {
+      "id": "12",
+      "Artistname": "Ghiblier",
+      "Avatar": "/public/Avatars/Ghiblier.png",
+      "NFTname": "Life On Edena",
+      "NFTimg": "/public/murketPlaceNFTs/LifeOnEdena.png"
+    }
+  ]
+  
+  
+
 }
