@@ -38,51 +38,51 @@
     {
       "id": "6",
       "Artistname": "mrFox",
-      "Avatar": "/public/Avatars/mrFox.png",
+      "Avatar": "./public/Avatars/mrFox.png",
       "NFTname": "Sunset0 Dimension",
-      "NFTimg": "/public/murketPlaceNFTs/Sunset0Dimension.png"
+      "NFTimg": "./public/murketPlaceNFTs/Sunset0Dimension.png"
     },
     {
       "id": "7",
       "Artistname": "Shroomie",
-      "Avatar": "/public/Avatars/Shroomie.png",
+      "Avatar": "./public/Avatars/Shroomie.png",
       "NFTname": "Dancing Robot0375",
-      "NFTimg": "/public/murketPlaceNFTs/DancingRobot0375.png"
+      "NFTimg": "./public/murketPlaceNFTs/DancingRobot0375.png"
     },
     {
       "id": "8",
       "Artistname": "robotica",
-      "Avatar": "/public/Avatars/robotica.png",
+      "Avatar": "./public/Avatars/robotica.png",
       "NFTname": "Desert Walk",
-      "NFTimg": "/public/murketPlaceNFTs/DesertWalk.png"
+      "NFTimg": "./public/murketPlaceNFTs/DesertWalk.png"
     },
     {
       "id": "9",
       "Artistname": "RustyRobot",
-      "Avatar": "/public/Avatars/RustyRobot.png",
+      "Avatar": "./public/Avatars/RustyRobot.png",
       "NFTname": "Designer Bear",
-      "NFTimg": "/public/murketPlaceNFTs/DesignerBear.png"
+      "NFTimg": "./public/murketPlaceNFTs/DesignerBear.png"
     },
     {
       "id": "10",
       "Artistname": "animakid",
-      "Avatar": "/public/Avatars/animakid.png",
+      "Avatar": "./public/Avatars/animakid.png",
       "NFTname": "Happy Robot024",
-      "NFTimg": "/public/murketPlaceNFTs/HappyRobot024.png"
+      "NFTimg": "./public/murketPlaceNFTs/HappyRobot024.png"
     },
     {
       "id": "11",
       "Artistname": "Dotgu",
-      "Avatar": "/public/Avatars/Dotgu.png",
+      "Avatar": "./public/Avatars/Dotgu.png",
       "NFTname": "Ice Cream Ape0324",
-      "NFTimg": "/public/murketPlaceNFTs/IceCreamApe0324.png"
+      "NFTimg": "./public/murketPlaceNFTs/IceCreamApe0324.png"
     },
     {
       "id": "12",
       "Artistname": "Ghiblier",
-      "Avatar": "/public/Avatars/Ghiblier.png",
+      "Avatar": "./public/Avatars/Ghiblier.png",
       "NFTname": "Life On Edena",
-      "NFTimg": "/public/murketPlaceNFTs/LifeOnEdena.png"
+      "NFTimg": "./public/murketPlaceNFTs/LifeOnEdena.png"
     }
   ]
   
