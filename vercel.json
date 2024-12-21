@@ -9,6 +9,14 @@
       {
         "source": "/(.*)",
         "destination": "api/server.js"
+      },
+      {
+        "source": "/avatars/(.*)",
+        "destination": "/public/avatars/$1"
+      },
+      {
+        "source": "/marketPlaceNFTs/(.*)",
+        "destination": "/public/marketPlaceNFTs/$1"
       }
     ]
 
