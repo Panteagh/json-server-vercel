@@ -31,8 +31,8 @@
       "dest": "/public/avatars/$1"
     },
     {
-      "src": "/marketPlace/(.*)",
-      "dest": "/public/marketPlace/$1"
+      "src": "/marketPlaceNFTs/(.*)",
+      "dest": "/public/marketPlaceNFTs/$1"
     }
   ]
 
