@@ -1,24 +1,15 @@
 {
-  "functions": {
-    "api/server.js": {
-      "memory": 1024,
-      "includeFiles": "db.json"
-      
-    }
-  },
-  "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "api/server.js"
+    "functions": {
+      "api/server.js": {
+        "memory": 1024,
+        "includeFiles": "db.json"
+      }
     },
-    {
-      "source": "/avatars/(.*)",
-      "destination": "/public/avatars/$1"
-    },
-    {
-      "source": "/marketPlaceNFTs/(.*)",
-      "destination": "/public/marketPlaceNFTs/$1"
-    }
-  ]
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "api/server.js"
+      }
+    ]
 
 }
