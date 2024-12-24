@@ -1,24 +1,32 @@
-const jsonServer = require("json-server");
-const path = require("path");
+// See https://github.com/typicode/json-server#module
+const jsonServer = require('json-server')
 
-const server = jsonServer.create();
-const router = jsonServer.router("db.json");
-const middlewares = jsonServer.defaults({
-  static: path.join(__dirname, "../public") 
-});
+const server = jsonServer.create()
 
-server.use(middlewares);
+// Uncomment to allow write operations
+// const fs = require('fs')
+// const path = require('path')
+// const filePath = path.join('db.json')
+// const data = fs.readFileSync(filePath, "utf-8");
+// const db = JSON.parse(data);
+// const router = jsonServer.router(db)
 
-server.use(
-  jsonServer.rewriter({
-    "/NFTsAPI/:path*": "/:path*", 
-  })
-);
+// Comment out to allow write operations
+const router = jsonServer.router('db.json')
 
-server.use(router);
+const middlewares = jsonServer.defaults()
 
+server.use(middlewares)
+// Add this before server.use(router)
+server.use(jsonServer.rewriter({
+    '/api/*': '/$1',
+    '/blog/:resource/:id/show': '/:resource/:id'
+}))
+server.use(router)
 server.listen(3000, () => {
-  console.log("JSON Server is running");
-});
+    console.log('JSON Server is running')
+})
 
-module.exports = server;
+// Export the Server API
+module.exports = server
+
