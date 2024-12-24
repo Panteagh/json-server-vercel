@@ -1,25 +1,22 @@
 {
-    "functions": {
-      "api/server.js": {
-        "memory": 1024,
-        "includeFiles": "db.json"
-      }
-    },
-    "rewrites": [
-      {
-        "src": "public/**/*",
-      "use": "@vercel/static"
-      }
-    ],
-    "routes": [
+  "functions": {
+    "api/server.js": {
+      "memory": 1024,
+      "includeFiles":  ["db.json", "public/**/*"]
+    }
+  },
+  "rewrites": [
     {
-      "src": "/avatars/(.*)",
-      "dest": "/public/avatars/$1"
+      "source": "/NFTsAPI/:path*",
+      "destination": "api/server.js"
     },
     {
-      "src": "/marketPlaceNFTs/(.*)",
-      "dest": "/public/marketPlaceNFTs/$1"
+      "source": "/Avatars/:path*",
+      "destination": "/public/Avatars/:path*"
+    },
+    {
+      "source": "/marketPlaceNFTs/:path*",
+      "destination": "/public/marketPlaceNFTs/:path*"
     }
   ]
-
-}
+  }
