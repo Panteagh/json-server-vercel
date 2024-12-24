@@ -17,10 +17,6 @@ const router = jsonServer.router('db.json')
 const middlewares = jsonServer.defaults()
 
 server.use(middlewares)
-
-server.use('/marketPlaceNFTs', express.static(path.join(__dirname, 'public/marketPlaceNFTs')));
-server.use('/Avatars', express.static(path.join(__dirname, 'public/Avatars')));
-
 // Add this before server.use(router)
 server.use(jsonServer.rewriter({
     '/api/*': '/$1',

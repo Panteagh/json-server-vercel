@@ -7,15 +7,15 @@
   },
   "rewrites": [
     {
-      "source": "/NFTsAPI/(.*)",
+      "source": "/(.*)",
       "destination": "api/server.js"
     },
     {
-      "source": "/Avatars/(.*)",
+      "source": "NFTsAPI/Avatars/(.*)",
       "destination": "/public/Avatars/$1"
     },
     {
-      "source": "/marketPlaceNFTs/(.*)",
+      "source": "NFTsAPI/marketPlaceNFTs/(.*)",
       "destination": "/public/marketPlaceNFTs/$1"
     }
   ]
