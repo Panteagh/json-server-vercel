@@ -2,21 +2,21 @@
   "functions": {
     "api/server.js": {
       "memory": 1024,
-      "includeFiles":  ["db.json", "public/**/*"]
+      "includeFiles": "db.json"
     }
   },
   "rewrites": [
     {
-      "source": "/NFTsAPI/:path*",
+      "source": "/(.*)",
       "destination": "api/server.js"
     },
     {
-      "source": "/Avatars/:path*",
-      "destination": "/public/Avatars/:path*"
+      "source": "/Avatars/(.*)",
+      "destination": "/public/Avatars/$1"
     },
     {
-      "source": "/marketPlaceNFTs/:path*",
-      "destination": "/public/marketPlaceNFTs/:path*"
+      "source": "/marketPlaceNFTs/(.*)",
+      "destination": "/public/marketPlaceNFTs/$1"
     }
   ]
   }
