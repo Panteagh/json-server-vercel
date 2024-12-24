@@ -7,7 +7,7 @@
   },
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/nftapi/(.*)",
       "destination": "api/server.js"
     },
     {
